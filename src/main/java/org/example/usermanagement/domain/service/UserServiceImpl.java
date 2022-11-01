@@ -59,7 +59,7 @@ public class UserServiceImpl implements UserService {
         final String token = Jwts.builder()
                 .setSubject(user.getUsername())
                 .setIssuedAt(new Date())
-                .signWith(SignatureAlgorithm.HS256, password)
+                .signWith(SignatureAlgorithm.HS256, "secret")
                 .compact();
 
         return Map.of(TOKEN_KEY, token, USER_ID_KEY, user.getId());

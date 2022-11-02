@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8327c63b-fb6f-41b4-80d1-7e545a45e9a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/domain/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/domain/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/infrastructure/config/PasswordEncoderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/usermanagement/infrastructure/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\CDPR\UserManagement\src\main\resources" />
@@ -85,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666994874077</updated>
       <workItem from="1666994875412" duration="337000" />
-      <workItem from="1667229285152" duration="12965000" />
+      <workItem from="1667229285152" duration="16161000" />
     </task>
     <servers />
   </component>

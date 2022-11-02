@@ -11,3 +11,13 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
   h2:
     console.enabled: true
+  application:
+      name: users
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
+    hostname: localhost

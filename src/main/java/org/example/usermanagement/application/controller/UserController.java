@@ -21,7 +21,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api")
 public class UserController {
 
     Logger logger = LoggerFactory.getLogger(UserController.class);
